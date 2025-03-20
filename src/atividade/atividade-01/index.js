@@ -7,14 +7,7 @@ function Atividade01 () {
         <View style={styles.container}>
             <Text style={styles.titulo}>Atividade 1</Text>
             <Text style={styles.texto}>Aula PAM I, primeiro componente.</Text>
-            <Text style={styles.texto}>Aula PAM I, segundo componente.</Text>
-            <Text style={styles.texto}>Aula PAM I, segundo componente.</Text>
-            <Text style={styles.texto}>Aula PAM I, segundo componente.</Text>
-            <Text style={styles.texto}>Aula PAM I, segundo componente.</Text>
-            <Text style={styles.texto}>Aula PAM I, segundo componente.</Text>
-            <Text style={styles.texto}>Aula PAM I, segundo componente.</Text>
-            <Text style={styles.texto}>Aula PAM I, segundo componente.</Text>
-            <Text style={styles.texto}>Aula PAM I, segundo componente.</Text>
+            <Text style={styles.texto}>Aula PAM I,  componente.</Text>
         </View>
     );
 }
