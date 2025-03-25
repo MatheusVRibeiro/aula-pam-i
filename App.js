@@ -9,13 +9,14 @@ import Exemplo02 from './src/exemplos/exemplo-02';
 
 // Atividades
 import Atividade01 from './src/atividade/atividade-01';
+import Atividade02 from './src/atividade/atividade-02';
 
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <Exemplo02 />
-      <StatusBar style="light" />
+      <Atividade02 />
+      <StatusBar style="auto" />
     </View>
   );
 }
@@ -23,7 +24,7 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#000',
+    backgroundColor: '#ADD8E6',
    // alignItems: 'center',
     // justifyContent: 'center',
     padding: 8,
