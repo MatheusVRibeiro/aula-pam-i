@@ -1,14 +1,14 @@
-import { View, Text } from 'react-native'; 
+import { View, Text, Image } from 'react-native'; 
 
 import styles from './styles';
 
-function Anuncio({titulo, children}) {
+function Card({titulo, children}) {
     return(
-        <View style={styles.container}>
+        <View style={styles.card}>
             <Text style={styles.titulo}>{titulo}</Text>
-            <Text style={styles.Anuncio}>{children}</Text>
+            {children} {/* Exibe o conteúdo passado */}
         </View>
     );
 }
 
-export default Anuncio;
+export default Card;
