@@ -18,17 +18,7 @@ const styles = StyleSheet.create({
         marginLeft: RFPercentage(10),
         marginRight: RFPercentage(10),
     },
-    imagem: {
-        width: RFPercentage(12),
-        height: RFPercentage(12),
-        borderRadius: RFPercentage(8),
-        marginBottom: RFPercentage(1),   
-        resizeMode: 'contain',
-        alignSelf: 'center',
-        overflow: 'hidden',
-        backgroundColor: '#f5f5f5',
-    },
-    preco: {
+    valor: {
         fontSize: RFPercentage(2.5),
         color: '#black',  // Cor chamativa para o preço
         fontWeight: 'bold',

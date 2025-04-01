@@ -32,7 +32,7 @@ export default StyleSheet.create({
     resizeMode: 'contain',  // Para não distorcer a imagem
     marginBottom: 14,  // Espaço entre a imagem e o texto
   },
-  preco: {
+  valor: {
     fontSize: 18,  // Tamanho da fonte do preço
     color: '#fff',  // Cor branca para o preço, para contrastar com o fundo verde
     fontWeight: 'bold',
