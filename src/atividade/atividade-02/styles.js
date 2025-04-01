@@ -19,10 +19,10 @@ const styles = StyleSheet.create({
         marginRight: RFPercentage(10),
     },
     imagem: {
-        width: RFPercentage(10),
-        height: RFPercentage(10),
+        width: RFPercentage(12),
+        height: RFPercentage(12),
         borderRadius: RFPercentage(8),
-        marginBottom: RFPercentage(1),
+        marginBottom: RFPercentage(1),   
         resizeMode: 'contain',
         alignSelf: 'center',
         overflow: 'hidden',

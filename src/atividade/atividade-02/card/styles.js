@@ -30,7 +30,7 @@ export default StyleSheet.create({
     width: '100%',  // A imagem vai ocupar toda a largura do card
     height: 180,  // Ajustei a altura para garantir que caiba na tela
     resizeMode: 'contain',  // Para não distorcer a imagem
-    marginBottom: 10,  // Espaço entre a imagem e o texto
+    marginBottom: 14,  // Espaço entre a imagem e o texto
   },
   preco: {
     fontSize: 18,  // Tamanho da fonte do preço
