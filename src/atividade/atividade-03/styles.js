@@ -9,6 +9,7 @@ const styles = StyleSheet.create({
     borderRadius: 10, // borda curvada
     padding: 8,
     alignItems: "center", // alinhamento horizontal - flexDirection collumn
+    
   },
   titulo: {
     fontSize: RFPercentage(4), // tamanho da fonte
@@ -28,26 +29,47 @@ const styles = StyleSheet.create({
   texto: {
     fontSize: RFPercentage(2.2),
   },
-  botaoAlert: {
-    width: "75%",
-    margin: RFPercentage(2),
-  },
-  valor: {
+  valorMais: {
     color: 'darkslategrey',
     fontSize: RFPercentage(4),
+    fontWeight: 'bold',
+    margin: RFPercentage(2),
+    borderWidth: 2, // borda para moldura
+    borderColor: 'darkslategrey',
+    borderRadius: 10,
+    paddingVertical: RFPercentage(2),
+    paddingHorizontal: RFPercentage(4),
+    textAlign: 'center',
   },
   botao: {
     backgroundColor: 'darkslategrey',
-    width: '75%',
+    width: '25%',
     borderRadius: RFPercentage(2),
     padding: RFPercentage(2),
     alignItems: 'center',
     justifyContent: 'center',
     margin: RFPercentage(2),
+
+  },
+  botaoReset: {
+    backgroundColor: 'darkslategrey',
+    width: '45%',
+    borderRadius: RFPercentage(2),
+    padding: RFPercentage(2),
+    alignItems: 'center',
+    justifyContent: 'center',
+    margin: RFPercentage(2),
+
   },
   txtBotao: {
     fontSize: RFPercentage(2),
     color: '#fafafa',
+    fontWeight: 'bold',
+  },
+  txtBotaoReset: {
+    fontSize: RFPercentage(2),
+    color: '#fafafa',
+    fontWeight: 'bold',
   }
 });
 
