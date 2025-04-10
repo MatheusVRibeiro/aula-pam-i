@@ -52,18 +52,19 @@ function Atividade03 () {
     return(
         <View style={styles.container}>
             <Text style={styles.titulo}>Atividade 3</Text>
+        <View style={styles.containerBotao}>
+        <TouchableOpacity style={styles.botao} onPress={handleDiscrementa}>
+                <Text style={styles.txtBotao}>-</Text>
+            </TouchableOpacity>
+            
+            <Text style={styles.resultado}>{numero}</Text>          
 
-            <Text style={styles.valorMais}>{numero}</Text>          
             <TouchableOpacity style={styles.botao} onPress={handleIncrementa}>
                 <Text style={styles.txtBotao}>+</Text>
             </TouchableOpacity>
-
-            <TouchableOpacity style={styles.botao} onPress={handleDiscrementa}>
-                <Text style={styles.txtBotao}>-</Text>
-            </TouchableOpacity>
-
+        </View>
             <TouchableOpacity style={styles.botaoReset} onPress={handleReset}>
-                <Text style={styles.txtBotaoReset}>Reset</Text>
+                <Text style={styles.txtBotaoReset}>ZERAR</Text>
             </TouchableOpacity>
         </View>
     );

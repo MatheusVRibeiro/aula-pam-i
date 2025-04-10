@@ -29,12 +29,12 @@ const styles = StyleSheet.create({
   texto: {
     fontSize: RFPercentage(2.2),
   },
-  valorMais: {
+  resultado: {
     color: 'darkslategrey',
     fontSize: RFPercentage(4),
     fontWeight: 'bold',
     margin: RFPercentage(2),
-    borderWidth: 2, // borda para moldura
+    borderWidth: 5, // borda para moldura
     borderColor: 'darkslategrey',
     borderRadius: 10,
     paddingVertical: RFPercentage(2),
@@ -49,7 +49,6 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
     margin: RFPercentage(2),
-
   },
   botaoReset: {
     backgroundColor: 'darkslategrey',
@@ -59,18 +58,22 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
     margin: RFPercentage(2),
-
+  },
+  txtBotaoReset: {
+    fontSize: RFPercentage(2.5),
+    color: '#fafafa',
+    fontWeight: 'bold',
   },
   txtBotao: {
     fontSize: RFPercentage(2),
     color: '#fafafa',
     fontWeight: 'bold',
+    fontSize: RFPercentage(2.7),
   },
-  txtBotaoReset: {
-    fontSize: RFPercentage(2),
-    color: '#fafafa',
-    fontWeight: 'bold',
-  }
+  containerBotao: {
+    flexDirection: 'row',
+    
+  },
 });
 
 export default styles;
