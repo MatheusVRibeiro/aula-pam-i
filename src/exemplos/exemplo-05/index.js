@@ -80,7 +80,7 @@ function Exemplo05() {
 
         </View>
 
-        <TouchableOpacity style={styles.button} onPress={() => {
+        <TouchableOpacity style={styles.buttonZerar} onPress={() => {
           setNum1('');
           setNum2('');
           setTotal('');

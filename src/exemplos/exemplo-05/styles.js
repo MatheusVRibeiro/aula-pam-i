@@ -62,6 +62,15 @@ const styles = StyleSheet.create({
         marginTop: 15,
         margin: RFPercentage(0.3),
     },
+    buttonZerar: {
+        backgroundColor: '#E91E63',
+        height: 38,
+        justifyContent: 'center',
+        borderRadius: 10,
+        marginTop: 15,
+        margin: RFPercentage(0.3),
+        width: RFPercentage(10),
+    },
     textButton: {
         fontSize: 18,
         color: '#FFFFFF',
