@@ -13,7 +13,7 @@ const styles = StyleSheet.create({
     },
     titulo: {
         marginVertical: RFValue(10),
-        fontSize: RFValue(30),
+        fontSize: RFValue(20),
         fontWeight: 'bold',
         color: '#333', // mais escuro para melhor contraste
         textAlign: 'center',
@@ -30,14 +30,12 @@ const styles = StyleSheet.create({
         fontWeight: 'bold',
         marginVertical: RFValue(15),
         textAlign: 'center',
-
     },
     txtMensagem: {
         fontSize: RFValue(28),
         color: '#666',
         textAlign: 'center',
-        marginVertical: RFValue(10),
-        
+        marginVertical: RFValue(10),   
     }
 });
 
