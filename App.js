@@ -21,25 +21,41 @@ import Atividade04 from './src/atividade/atividade-04';
 import Atividade05 from './src/atividade/atividade-05';
 import Atividade06 from './src/atividade/atividade-06';
 
+import NavegacaoPrincipal from './src/navegacao';
+
 
 
 export default function App() {
   return (
-    <View style={styles.container}>
-      <Exemplo08 />
+    // 2. Usamos um Fragment (<>...</>) para agrupar os componentes
+    //    sem adicionar uma View desnecessária no DOM.
+    <>
+      <NavegacaoPrincipal />
       <StatusBar style="auto" />
-    </View>
+    </>
   );
 }
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: 'darkslategray',
-   // alignItems: 'center',
-    // justifyContent: 'center',
-    padding: 8,
-    paddingTop: Constants.statusBarHeight || 8,
+//                       ========= DAQUI ========
+// export default function App() {
+//   return (
+//     <View style={styles.container}>
+//       <Atividade06 />
+//       <StatusBar style="auto" />
+//     </View>
+//   );
+// }
+
+// const styles = StyleSheet.create({
+//   container: {
+//     flex: 1,
+//     backgroundColor: 'darkslategray',
+//    // alignItems: 'center',
+//     // justifyContent: 'center',
+//     padding: 8,
+//     paddingTop: Constants.statusBarHeight || 8,
     
-  },
-});
+//   },
+// });
+
+//                     =========== ATÉ AQUI ============
